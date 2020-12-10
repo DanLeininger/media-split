@@ -1856,12 +1856,12 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-m3u8stream@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/m3u8stream/-/m3u8stream-0.7.1.tgz#74b01a67ca248ac7bbdc263a65d9d8d2c479a65c"
-  integrity sha512-z6ldnAdhbuWOL6LmMkwptSZGzj+qbRytMKLTbNicwF/bJMjf9U9lqD57RNQUFecvWadEkzy6PDjcNJFFgi19uQ==
+m3u8stream@^0.8.3:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/m3u8stream/-/m3u8stream-0.8.3.tgz#c4624e92b4240eb356d040c4a5e155586cf58108"
+  integrity sha512-0nAcdrF8YJKUkb6PzWdvGftTPyCVWgoiot1AkNVbPKTeIGsWs6DrOjifrJ0Zi8WQfQmD2SuVCjkYIOip12igng==
   dependencies:
-    miniget "^1.6.1"
+    miniget "^4.0.0"
     sax "^1.2.4"
 
 make-dir@^3.0.0:
@@ -1902,15 +1902,15 @@ mdurl@^1.0.1:
   resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
-miniget@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/miniget/-/miniget-1.6.1.tgz#f1ae08a34e06a2b1c3ace568384ea0def2fe5813"
-  integrity sha512-I5oBwZmcaOuJrjQn7lpS29HM+aAZDbzKbX5ouxVyhFYdg6fA6YKOTwOCgzZQwlHuMek3FlCxz6eNrd4pOXbwOA==
-
 miniget@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/miniget/-/miniget-2.0.1.tgz#e2188573317ad8239bab33f056aae64804fc8e47"
   integrity sha512-MX+QfVIPAutz6c+T7WKuFKtjcw0nOyRRh1ubhTDD+z/e/pKcSAsfAV63aQKUgb1MFRT1GyfJeW53N5fHkX0wIA==
+
+miniget@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/miniget/-/miniget-4.1.0.tgz#018cc1180d2fe4d45ed735ac6bd2ab7224e8bceb"
+  integrity sha512-kzhrNv5L7LlomwGmPGQsLQ2PnT1LeJJWfB0wNFGyv426gEM1gsfziBQmfkr6XOBA8EusZg9nowlNT5CbuKTjZg==
 
 minimatch@3.0.4, minimatch@^3.0.4:
   version "3.0.4"
@@ -3205,12 +3205,12 @@ yargs@^15.4.1:
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
 
-ytdl-core@^3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/ytdl-core/-/ytdl-core-3.2.2.tgz#056eae00209410734f11046f8d7947d7e39514bf"
-  integrity sha512-DVE7uhk4WYB2Op742QQVGE/b9G7cr9kSB3ZDpDXmyRPhO55h9u8gwORlDIHWKucWVmCsdsdKzNP89QylpJEgiw==
+ytdl-core@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/ytdl-core/-/ytdl-core-4.1.4.tgz#214c56306b53b5c320ea2b9b2c62315a4da4e1ae"
+  integrity sha512-f9M2ctrQNH9/X+jOZ/4iA4h6DvNcyuJ+fDvacheeaxtV7sX13qaNmQgNAe7UeTlJWh7Dn3RHQ6imqJJh5beGQg==
   dependencies:
     html-entities "^1.3.1"
-    m3u8stream "^0.7.1"
-    miniget "^2.0.1"
+    m3u8stream "^0.8.3"
+    miniget "^4.0.0"
     sax "^1.1.3"
